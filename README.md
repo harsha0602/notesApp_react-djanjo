@@ -11,10 +11,9 @@ This is a simple notes app built with React and Django.
 ```
 git clone https://github.com/Hitstar53/notesapp.git
 ```
-2. Create a virtual environment and activate it
+2. Create a virtual environment 
 ```
-virtualenv venv
-source venv/bin/activate
+touch env
 ```
 3. Install the requirements
 ```
@@ -39,6 +38,3 @@ npm install
 npm start
 ```
 
-## Deployment
-App is deployed on Railway: [Notes App](https://notesapp-production-8c87.up.railway.app/)  
-Refer this article on how to: [deploy a django app on Railway](https://dev.to/osahenru/using-railway-app-to-deploy-your-django-project-3ah1)
